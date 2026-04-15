@@ -1,15 +1,15 @@
-title: 동현의 나불나불
+title: example.com
 description: "Satellite - jekyll blog theme"
 logo_img: "/assets/img/favicon.webp"
 profile_img: "/assets/img/profile.webp"
 
 # Social Links
-email: aaabbb4202@naver.com
-github_username: DongHyeonHDH
-# twitter_username: twitter
-# instagram_username: instagram
-# linkedin_username: linkedin
-# facebook_username: facebook
+email: example@gmail.com
+github_username: github
+twitter_username: twitter
+instagram_username: instagram
+linkedin_username: linkedin
+facebook_username: facebook
 
 # External API
 giscus_repo: "byanko55/jekyll-theme-satellite"
