@@ -4,7 +4,7 @@ tags:
     - web
     - cs     
 date: "2026-04-18"
-thumbnail: "/assets/img/thumbnail/gobuki.jpg"
+thumbnail: "/assets/img/thumbnail/http_base.png"
 bookmark: true
 ---
 
@@ -12,32 +12,26 @@ bookmark: true
 
 현재 이용하는 것은 대부분 http 1.1 버전이고 tcp를 기반으로 한다. http만 udp 통신을 따른다.
 
-각 웹이 어떤 http 통신을 이용하고 있는지는 f12의 network의 protocol을 통해서 확인하는 것이 가능ㅎ다.
+각 웹이 어떤 http 통신을 이용하고 있는지는 f12의 network의 protocol을 통해서 확인하는 것이 가능하다.
 
 ### Stateful, Stateless 차이
 
 과정을 저장하고 넘겨주는지 아닌지의 차이이다.
 
-stateful은 과정에서 전 결과물의 내용을 기억하고 진행하는 방면
-
-stateless는 전에 있는 과정을 기억하지 않고 오직 해당 과정만을 거친다고 생각하면 된다.
-
-정리하지면 stateful은 한사람이 이전 과정을 기억하고 진행
-stateless는 여러 사람이 한 과정을 맡고 진행
-
+stateful은 과정에서 전 결과물의 내용을 기억하고 진행하는 방면 stateless는 전에 있는 과정을 기억하지 않고 오직 해당 과정만을 거친다고 생각하면 된다. 다른 말로는 stateful은 한사람이 이전 과정을 기억하고 진행하고 stateless는 여러 사람이 한 과정을 맡고 진행한다고 볼 수가 있다.
 
 > stateless는 갑작스러운 트래픽 증가에도 대응이 좀 더 좋다고 볼 수가 있다. 응답 서버를 쉽게 바꿀 수가 있어서 무한한 서버 증설이 가능하다.
 
 애초에 클라이언트가 필요 정보를 다 포함해서 넘기기 때문에 서버에 장애가 발생해도 괜찮다.
-
-
 **상태유지(stateful)은 최소한으로 사용하는 것이 좋다.**
 
-Stateless의 실무 한계
-모든 것을 무상태로 설계 할 수 있는 경우도 있고 없는 경우도 있다. 
+## Stateless의 실무 한계
+모든 것을 무상태로 설계 할 수 있는 경우도 있고 없는 경우도 있다. 모든 것을 무상태로 하는 경우
+로그인 상태 유지가 불가하고 매 요청마다 인증정보가 필요해서 cost가 증가한다고 볼 수가 있다. 
+이 때문에 실무에서는 완전한 stateless보다는 쿠키, JWT, Redis,등과 같은 것을 활용해서 stateless와 
+상태 저장소의 혼합 구조를 표준으로 둔다.
 
 ### 비연결성 connectionless
-
 서버는 연결을 유지하는 동안 서버 자원을 소모를 하게 된다.
 → 다른 클라이언트가 놀고 있을 수가 있다
 
@@ -57,19 +51,21 @@ http 지속연결 persistent connections으로 문제를 해결한다.
 ### HTTP 메시지
 
 ![http-structure](/assets/img/http_sturcture.png)
-요청메시지도 body를 가질 수가 있다
+요청메시지도 body를 가질 수가 있다.
 
 http 메서드는 get, POST, PUT, DELETE 등을 가진다
 
-*GET*: 리소스 조회
-*POST*:  요청내역 쳐리
-
+*GET* : 리소스 조회
+*POST* :  요청내역 처리
 절대경로를 통해 시작을 한다.
-*http 요청 메시지*
+
+#### http 요청 메시지
+---
 ![http-request](/assets/img/http_request.png)
 
 
-*http 응답 메시지*
+#### http 응답 메시지
+---
 ![http-response](/assets/img/http_response.png)
 응답 매시지에 http 상태에 관한 코드를 받게 되는데 이는 http 요청이 성공했는지 실패했는지 알려주고 이유도 포함된다.
 - 200 : 성공
