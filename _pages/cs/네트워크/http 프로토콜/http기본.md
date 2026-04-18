@@ -50,7 +50,7 @@ http 지속연결 persistent connections으로 문제를 해결한다.
 
 ### HTTP 메시지
 
-![http-structure](/assets/img/http_sturcture.png)
+![http-structure](/assets/img/http_structure.png)
 요청메시지도 body를 가질 수가 있다.
 
 http 메서드는 get, POST, PUT, DELETE 등을 가진다
