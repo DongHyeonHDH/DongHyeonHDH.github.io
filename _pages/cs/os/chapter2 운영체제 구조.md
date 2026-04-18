@@ -4,7 +4,7 @@ tags:
     - cs
     - os     
 date: "2026-04-18"
-thumbnail: "/assets/img/thumbnail/http_base.png"
+thumbnail: "/assets/img/thumbnail/dooli.jpg"
 bookmark: true
 ---
 
@@ -71,7 +71,7 @@ RTE→ 실행시간 환경
 
 프로세스 제어
 
-실행중인 프로그램 수행을 end() 하거나 abort()를 시행할 수 있어야 한다
+실행중인 프로그램 수행을 end() 하거나 abort()를 시행할 수 있어야 한다 
 
 문제가 발생해 trap이 발생한 경우 오류 메시지를 출력하거나 디버거에 의해 검사될 수 있다.
 
