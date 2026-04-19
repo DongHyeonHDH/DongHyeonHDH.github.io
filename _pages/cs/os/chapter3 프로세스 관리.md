@@ -12,7 +12,9 @@ bookmark: true
 ---
 프로세스란 실행 중인 프로그램이다. 프로세스의 현재 활동 상태는 프로그램 카운터(pc)값과 프로세서 레지스터의 내용으로 나타낼 수 있다.
 
-![process-structure](/assets/img/process-structure.jpg)
+<!-- ![process-structure](/assets/img/process-structure.jpg) -->
+<img src="/assets/img/process-structure.jpg" width="50" height="50"/>
+
 
 - 텍스트 섹션 - 실행 코드
 - 데이터 섹션 - 전역 변수
@@ -27,7 +29,8 @@ bookmark: true
 
 # 프로세스 상태
 ---
-![process-state](/assets/img/process-state.jpg)
+<!-- ![process-state](/assets/img/process-state.jpg) -->
+<img src="/assets/img/process-state.jpg" width="50" height="50"/>
 
 - new : 프로세스가 생성 중
 - running : 명령어들이 실행 중
@@ -70,7 +73,8 @@ ready queue 헤더에는 첫번째 PCB에 대한 포인터가 저장되고 각 P
 
 프로세스 스케쥴링의 일반적인 표현은 queuing diagram이다. 원은 큐에 서비슬 제공하는 자원을 의미하고 화살표는 시스템의 프로세스 흐름을 나타낸다.
 
-![process-schedule](/assets/img/process-schedule.png)
+<!-- ![process-schedule](/assets/img/process-schedule.png) -->
+<img src="/assets/img/process-schedule.png" width="50" height="50"/>
 
 ### CPU 스케쥴링
 ---
