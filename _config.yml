@@ -13,9 +13,9 @@ facebook_username: 황동현
 
 # External API
 # giscus_repo: "byanko55/jekyll-theme-satellite"
-giscus_repo:"DonghyeonHDH/DonghyeonHDH.github.io"
+giscus_repo: "DonghyeonHDH/DonghyeonHDH.github.io"
 # giscus_repoId: "R_kgDOJ6fqWg"
-giscus_repoId:"R_kgDOSDDZpQ"
+giscus_repoId: "R_kgDOSDDZpQ"
 giscus_category: "Q&A"
 giscus_categoryId: "DIC_kwDOSDDZpc4C7rnz"
 goatcounter_code: byanko77
