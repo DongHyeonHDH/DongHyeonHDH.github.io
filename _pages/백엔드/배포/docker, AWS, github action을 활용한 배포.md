@@ -161,10 +161,10 @@ jobs:
 github actions는 docker hub 로그인, EC2 서버 접속 등 배포 과정에서 민감한 정보를 사용해야 한다.
 Docker Hub 아이디, EC2 SSH Private Key, 데이터베이스 비밀번호 등 workflow 파일에 작성되면 노출될 위험이 있다. 
 이러한 정보는 github secrets로 보관하는 편이 좋다.
-![img.png](img.png)
+![img.png](../../../assets/img/git-secret.png)
 
 ## github runners 설정
-![img_1.png](img_1.png)
+![img_1.png](../../../assets/img/git-runner.png)
 github runners의 self-hosted 서버를 사용할 때 settings에 runners에 들어가서 새로운 new self-hosted runner을 구축해줘야 한다.
 runner를 만들어주면 os에 따라 다른 코드가 나오는데 이를 연결하는 가상머신에 입력해주면 된다.   
 
