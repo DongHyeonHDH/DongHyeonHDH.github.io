@@ -1,139 +1,43 @@
-[![CI](https://img.shields.io/badge/Github%20Pages-passing-gold.svg?logo=github)](ci)
-[![License: MIT](https://img.shields.io/badge/License-MIT-orange.svg)](https://opensource.org/licenses/MIT)
-[![Jekyll](https://img.shields.io/badge/jekyll-%3E%3D%204.3.2-green.svg)](https://jekyllrb.com/)
-[![Jekyll](https://img.shields.io/badge/gem%20version-3.2.33-blue.svg)](gem)
-<a href="https://jekyll-themes.com/byanko55/jekyll-theme-satellite">
-  <img
-    src="https://img.shields.io/badge/featured%20on-JT-red.svg"
-    height="20"
-    alt="Jekyll Themes Shield"
-  />
-</a>
+# 📚 Tech Study Blog
 
-# Satellite🛰️ - Jekyll blog theme
-An emotional and adorable blog theme powered by ***Jekyll***. 
+개발을 공부하며 배운 내용을 기록하고 공유하는 학습용 블로그입니다.
 
-Live demo is available [here](https://byanko55.github.io)
+## 🎯 목적
 
-![Demo Page](https://i.ibb.co/h1QF06V/demo.webp)
+- 학습한 내용을 기록하며 복습하기
+- 개발 개념을 직접 정리하며 이해도 높이기
+- 프로젝트 경험과 문제 해결 과정을 아카이빙하기
+- 꾸준한 성장 과정을 남기기
 
-### Light Mode
-![Demo Page-light](https://i.ibb.co/DtDPCpR/white.webp)
+## 📝 다루는 내용
 
-### Dark Mode
-![Demo Page-dark](https://i.ibb.co/BjsrWg2/dark.webp)
+- ☕ Java
+- 🌱 Spring Boot
+- 🗄️ Database (MySQL, JPA)
+- 🐳 Docker
+- ☁️ AWS
+- 🔧 Git & GitHub
+- 📡 Kafka
+- 🤖 AI & LLM
+- 💻 알고리즘 / 코딩 테스트
+- 📌 프로젝트 회고 및 트러블 슈팅
 
-### Fresh and Attractive Design
-<p>
-<img src="https://i.ibb.co/4NwrTyj/image-2.webp" height="400px" align="center"/>
-<img src="https://i.ibb.co/WvyBzkL/Animation.gif" height="400px" align="center"/>
-</p>
+## 📂 카테고리
 
-<br></br>
+- Backend
+- Database
+- DevOps
+- Algorithm
+- CS
+- Project
+- Trouble Shooting
 
-## Features
+## 🚀 목표
 
-* Comment System using *giscus*
-* Copy contents of Code Block
-* Dark/Light Theme
-* Google Analytics
-* Hierarchical Categorization
-* Mobile friendly design
-* Related Posts
-* RSS/Sitemap support
-* Search Post by Title or Tags
-* Syntax Highlighter (*highlight.js*)
-* Table of Contents
-* Visitor Counter (*goatcounter*)
+> **"오늘 배운 것을 내일 설명할 수 있도록 기록하자."**
 
+꾸준한 학습과 기록을 통해 성장하는 백엔드 개발자를 목표로 합니다.
 
-## Installation
+---
 
-There are two ways to setup this theme:
-<br></br>
-
-### Method 1: Build from source (Recommended)
-Fork [this repository](https://github.com/byanko55/jekyll-theme-satellite) or download the [source](https://github.com/byanko55/jekyll-theme-satellite/releases) as a zip. 
-
-If you use as destination a repository named USERNAME.github.io, then your url will be https://USERNAME.github.io/.
-
-Otherwise (let's say `myblog`), you need to edit the '*baseurl*' parameter in `_config.yml`. In this case, the root page will be served to "https://USERNAME.github.io/myblog/".
-
-```yml
-# set baseurl as "/<repo-name>". ex) baseurl: /myblog
-baseurl: /myblog
-```
-<br></br>
-
-
-### Method 2: Utilize Gem package
-Create a clean site directory (Follow the **Instruction 1~4** described [here](https://jekyllrb.com/docs/)).
-
-The following materials are redundant, so remove them.
-* index.markdown
-* about.markdown
-<br></br>
-
-Then, add this line to your Jekyll site's `Gemfile`:
-
-```bash
-gem "jekyll-theme-satellite"
-```
-
-You need to replace the initial `_config.yml` file with the [prepared one](https://github.com/byanko55/jekyll-theme-satellite/blob/master/docs/_config.yml).
-<br></br>
-
-### Modify your site setting
-
-Now fill in the **site variable** such as blog name, profile image, and social accounts in `_config.yml`.
-
-```yml
-title: Example.com
-description: "Satellite - jekyll blog theme"
-logo_img: "/assets/img/favicon.webp"
-profile_img: "/assets/img/profile.jpg"
-
-# Social Links
-email: example@gmail.com
-github_username: github
-twitter_username: twitter
-instagram_username: instagram
-linkedin_username: linkedin
-facebook_username: facebook
-```
-
-
-### Run site locally
-
-From the site root directory, install the dependencies:
-
-```
-bundle install
-```
-
-
-Start a Jekyll service.
-
-```
-bundle exec jekyll serve
-```
-
-Now open [http://localhost:4000](http://localhost:4000) in your browser.
-<br></br>
-
-## Customizing
-
-You can find useful manuals for customizing your site from the below table:
-
-|||
-|---|---|
-|Posting guidelines|[link](https://github.com/byanko55/jekyll-theme-satellite/blob/master/docs/Posting%20Guide.md)|
-|Enabling ***comment system***|[link](https://github.com/byanko55/jekyll-theme-satellite/blob/master/docs/Comment%20System.md)|
-|Enabling ***Visitor counter***|[link](https://github.com/byanko55/jekyll-theme-satellite/blob/master/docs/Visitor%20Counter.md)|
-
-## Contribution
-If you would like to report a bug or request a new feature, please open [an issue](https://github.com/byanko55/jekyll-theme-satellite/issues) We are open to any kind of feedback or collaboration.
-<br></br>
-
-## License
-© 2024 *Yankos*. This theme is available as open source under the terms of the [MIT License](https://opensource.org/license/mit/).
+⭐ 학습 내용을 지속적으로 업데이트하고 있습니다.
