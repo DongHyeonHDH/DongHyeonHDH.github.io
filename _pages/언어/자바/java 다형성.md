@@ -4,7 +4,7 @@ tags:
     - java
     - OOP    
 date: "2026-07-23"
-thumbnail: "/assets/img/thumbnail/java"
+thumbnail: "/assets/img/thumbnail/java.png"
 bookmark: true
 ---
 
