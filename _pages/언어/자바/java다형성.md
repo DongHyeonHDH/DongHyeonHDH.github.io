@@ -3,7 +3,7 @@ title: java 다형성
 tags:
     - java
     - OOP    
-date: "2026-07-23"
+date: "2026-07-22"
 thumbnail: "/assets/img/thumbnail/java.png"
 bookmark: true
 ---
@@ -104,4 +104,3 @@ D(){
 
 컴파일러가 if를 자연스럽게 읽게 된다.
 
-</aside>
