@@ -85,7 +85,7 @@ super은 한번만 사용하고 사용시 조상 클래스까지를 조회하게
 
 ## 보충
 ---
-####final boolean DEBUG의 사용
+#### final boolean DEBUG의 사용
 
 ```java
 static final boolean DEBUG= false;
