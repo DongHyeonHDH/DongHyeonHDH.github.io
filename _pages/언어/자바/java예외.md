@@ -1,3 +1,13 @@
+---
+title: java 예외
+tags:
+- java
+- OOP    
+date: "2026-07-27"
+thumbnail: "/assets/img/thumbnail/javaLogo.png"
+bookmark: true
+---
+ 
 ## try catch문
 
 ```java
