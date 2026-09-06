@@ -1,0 +1,4 @@
+interface:
+  display_name: "Notion to Jekyll Blog"
+  short_description: "Notion 글을 기존 Jekyll 분류에 맞춰 안전하게 이전"
+  default_prompt: "Use $notion-to-jekyll-blog to migrate new Notion export notes into this Jekyll blog without changing existing posts."
