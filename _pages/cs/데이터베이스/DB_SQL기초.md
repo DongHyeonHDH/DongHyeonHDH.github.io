@@ -5,7 +5,7 @@ tags:
     - mysql
     - sql
 date: "2026-04-13"
-thumbnail: "/assets/img/thumbnail/empty.jpg"
+thumbnail: "/assets/img/thumbnail/grapaduk.jpg"
 bookmark: true
 ---
 
